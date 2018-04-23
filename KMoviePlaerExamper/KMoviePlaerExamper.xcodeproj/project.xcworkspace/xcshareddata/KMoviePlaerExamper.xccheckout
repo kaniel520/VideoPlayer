@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A012259D-F107-499A-A51A-BDB618DBBEA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KMoviePlaerExamper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F723E479-4914-47FB-910D-29668ABB2183</key>
+		<string>svn://192.168.100.2/video/ios/FYPlayer/KMoviePlaerExamper</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KMoviePlaerExamper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F723E479-4914-47FB-910D-29668ABB2183</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F723E479-4914-47FB-910D-29668ABB2183</key>
+		<string>svn://192.168.100.2/video</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.100.2/video/ios/FYPlayer/KMoviePlaerExamper/KMoviePlaerExamper.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F723E479-4914-47FB-910D-29668ABB2183</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F723E479-4914-47FB-910D-29668ABB2183</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KMoviePlaerExamper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

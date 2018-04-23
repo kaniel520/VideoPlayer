@@ -1,0 +1,62 @@
+//
+//  KViewController.m
+//  KMoviePlaerExamper
+//
+//  Created by Mac on 14-7-18.
+//  Copyright (c) 2014年 FengYingOnline. All rights reserved.
+//
+
+#import "KViewController.h"
+
+#import "FYPlayerViewController.h"
+
+@interface KViewController ()
+
+@end
+
+@implementation KViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapView:)];
+    
+    [self.view addGestureRecognizer:tap];
+
+}
+
+- (void)tapView:(id)sender
+{
+    [self.textUrl resignFirstResponder];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)click:(id)sender
+{
+    FYPlayerViewController *player = [[FYPlayerViewController alloc]initWithNibName:@"FYPlayerViewController" bundle:[NSBundle mainBundle]];
+    if (self.textUrl.text.length > 0) {
+        player.playUrl = self.textUrl.text;
+    }else{
+        player.playUrl = @"http://g3.letv.cn/vod/v1/NTAvNy84MC9sZXR2LXV0cy8xNC92ZXJfMDBfMTQtMjE4Mjg2OTctYXZjLTIyNjc5My1hYWMtMzIwMDAtMjYxMzY5My04NzY1OTM4Ni0yOTQ5OTI3ZTViNWJmZmJhZDBkOTE2ODFiZTU0NzYzNS0xNDAyMTY4MTQ1NDg4Lm1wNA==?platid=100&splatid=10000&tag=gug&gugtype=1&type=pc_liuchang_mp4&ch=letv&playid=0&termid=1&pay=0&ostype=windows&hwtype=un&format=0&expect=1&tss=ios";
+    }
+    
+    
+//    player.playUrl = @"http://g3.letv.cn/vod/v1/NTgvMzQvODUvbGV0di11dHMvMTQvdmVyXzAwXzE0LTE2MzI2Nzk0LWF2Yy0yMjk3NDUtYWFjLTMyMDAwLTM1NDU3NDItMTIwNDcyMTkzLTk0ZjI1ZDkzM2Q1NDlhODkxZDk0MjQ4NjMxNmU1NWJjLTEzOTc2MDI5MzU1NDcubXA0?platid=100&splatid=10000&tag=gug&gugtype=1&type=pc_liuchang_mp4&ch=letv&playid=0&termid=1&pay=0&ostype=windows&hwtype=un&format=0&expect=1&tss=ios";
+
+//    player.playUrl = @"http://vhotwsh.video.qq.com/flv/140/120/h0014k3deac.mp4?vkey=24FC5D4424754D09BBFB234AD2D82258A8D79ADBF56AADE7CC611F8492D2816872519F0BB8906C21CB16D1048C778DADCB8539EE34206D4C&br=62471&platform=5&fmt=mp4&level=0&type=mp4";
+    
+//    player.playUrl = @"rtsp://58.67.194.61:554/test66.sdp";
+//    player.playUrl = @"http://hot.vrs.sohu.com/ipad1866369_4617941859858_4077680.m3u8?plat=17";
+//    player.playUrl = @"rtmp://ps1.hovn.cn:1935/live/vod2";
+    
+    
+    [self presentViewController:player animated:YES completion:nil];
+}
+
+@end

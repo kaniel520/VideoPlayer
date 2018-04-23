@@ -1,0 +1,46 @@
+10
+
+dir
+2375
+svn://zhangzl@192.168.100.2/video/ios/FYPlayer/KMoviePlaerExamper
+svn://zhangzl@192.168.100.2/video
+
+
+
+2014-08-19T09:25:18.588832Z
+2308
+wangrq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66b20e64-3569-4228-ba7f-0b0efe0d1ea9
+
+FYmoviePlayerController
+dir
+
+KMoviePlaerExamper
+dir
+
+product
+dir
+
+ffmpeg
+dir
+
+KMoviePlayer
+dir
+
+KMoviePlaerExamper.xcodeproj
+dir
+

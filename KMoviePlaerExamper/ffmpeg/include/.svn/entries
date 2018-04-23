@@ -1,0 +1,58 @@
+10
+
+dir
+2375
+svn://zhangzl@192.168.100.2/video/ios/FYPlayer/KMoviePlaerExamper/ffmpeg/include
+svn://zhangzl@192.168.100.2/video
+
+
+
+2014-07-22T09:51:36.481008Z
+1716
+wangrq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66b20e64-3569-4228-ba7f-0b0efe0d1ea9
+
+libpostproc
+dir
+
+libavfilter
+dir
+
+speex
+dir
+
+libavformat
+dir
+
+libswscale
+dir
+
+librtmp
+dir
+
+libswresample
+dir
+
+libavcodec
+dir
+
+libavutil
+dir
+
+libavdevice
+dir
+
